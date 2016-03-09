@@ -1,0 +1,48 @@
+\section{Bibliotek kerne- og ekstra features}
+Der skulle findes ud af hvad vores Bibliotek skulle fokuserer på. for at finde ud af dette blev der lavet en brainstorm for at komme med gode idéer til de features der skulle med i biblioteket. \\
+
+Efter brainstormen blev gruppen enig om 3 kerne features som der skulle komme med i biblioteket hvilket blev: Toner skal angives med navn, datastrukturer for skalaer, algoritme til akkorder. Disse tre hoved features skulle være med til at det grundlæggende i biblioteket som har stor fokus på brugervenlighed og abstraktion. her kommer en kort forklaring på vores idéer til vores kerne features. \\
+
+
+Toner skal angives med navn
+Under vores undersøgelser af andre c# biblioteker blev der fundet ud af at mange af dem lagde sig meget tæt op af MIDI formatet hvilket gjorde at man skulle skrive binært hver gang man skulle bruge en bestemt tone eller tempo. Hvilket fik os til at ville lave det mere brugervenligt ved at angive Toner med navn i stedet for binære værdier.\\  
+
+Datastrukturer for skalaer
+
+
+Algoritme til akkorder
+
+
+
+
+Prioriterings tabel
+\begin{table}[H]
+ \centering
+ \caption{Kontekst tabel}
+ \label{kontekst-tabel}
+ \begin{tabular}{l|r|c|c|c}
+     ideer               & anvendelighed (4)     & unik(2)        & implementations tid (5)       &i alt  \\ \hline
+gem/læs-filer       & 5		         & 1 	      & 3    		 & 37 \\          
+clock	            & 5              & 3 	      & 1 			 & 31 \\
+instrument class    & 4		         & 5          & 5 	         & 51 \\
+note on/off         & 4		         & 1	      & 5		     & 43 \\
+kø-afspiller        & 4	             & 5	      & 2			 & 36 \\
+string to note      & 4		         & 2	      & 3			 & 35
+
+\end{tabular}
+\end{table}
+
+prioriteringsrækkefølge:
+instrument class
+note on/off
+gem/læs-filer 
+kø-afspiller 
+string to note
+clock	
+gem/læs-filer
+clock	
+Instrument class
+note on/off          
+kø-afspiller          
+string to note   
+
